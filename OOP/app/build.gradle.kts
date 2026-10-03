@@ -16,6 +16,9 @@ repositories {
 }
 
 dependencies {
+    compileOnly(libs.lombok)
+    annotationProcessor(libs.lombok)
+
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
 
